@@ -1,3 +1,8 @@
+
+
+// original problem: https://atcoder.jp/contests/dp/tasks/dp_b
+// same thing as frog-2-top-down but done in c++
+
 #include <bits/stdc++.h>
 #define ll long long
 
