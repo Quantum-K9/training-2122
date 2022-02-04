@@ -1,4 +1,6 @@
 
+#original problem: https://atcoder.jp/contests/dp/tasks/dp_b
+
 n,k = [ int(x) for x in input().split() ]
 h = [ int(x) for x in input().split() ]
 
