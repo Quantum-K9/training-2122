@@ -1,4 +1,6 @@
 
+#original problem: https://codeforces.com/contest/431/problem/B
+
 from itertools import permutations as p
 
 g = []
