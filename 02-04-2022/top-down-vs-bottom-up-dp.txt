@@ -2,7 +2,7 @@
 TOP-DOWN VS BOTTOM-UP DP
 
 The way the bottom-up DP table is filled is different to that of the top-down DP memo table. In the top-down DP, the memo table entries are flled "as needed" through the 
-recursion itself. In the bottom-up DP, we use a "correct DP table filling order" to comute the values such that the previous values needed to process the current cell have
+recursion itself. In the bottom-up DP, we use a "correct DP table filling order" to compute the values such that the previous values needed to process the current cell have
 already been obtained.
 
 For most DP problems, these two styles are equally good and the decision to use a particular DP style is a matter of preference. However, for harder DP problems, one of 
