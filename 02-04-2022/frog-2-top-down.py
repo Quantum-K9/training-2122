@@ -1,4 +1,7 @@
 
+
+#original problem: https://atcoder.jp/contests/dp/tasks/dp_b
+
 import sys
 sys.setrecursionlimit( 1000000 )
 
