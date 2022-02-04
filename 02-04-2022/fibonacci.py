@@ -1,9 +1,10 @@
 
+# how to compute fibonacci numbers using dp
+
 import sys
 sys.setrecursionlimit( 100000000 )
 
-MOD = 1000000007
-# 1 <= n <= 1000000
+MOD = 1000000007 # commonly seen in competitions; makes numbers more manageable
 
 memo = [-1]*1000002
 def fib(n): #top-down dp
@@ -47,5 +48,3 @@ for i in range( 3, n+1 ):     # for ( int i = 3; i < n+1; i++ )
     answers.append( fi )
 
 print( answers[n] )
-
- 
