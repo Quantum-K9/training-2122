@@ -2,12 +2,13 @@
 import sys
 sys.setrecursionlimit( 1000000 )
 
+#take input
 n = int( input() )
 h = [ int(x) for x in input().split() ]
 
 memo = [-1]*(n+1)
 
-def dp(i): # the cheapest way to get from stone i tp stone n --> dp(1)
+def dp(i): # the cheapest way to get from stone i to stone n-1 (last stone) --> dp(0)
 
     if memo[i] != -1:
         return memo[i]
