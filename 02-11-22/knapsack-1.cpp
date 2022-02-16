@@ -1,3 +1,6 @@
+
+// original problem: https://atcoder.jp/contests/dp/tasks/dp_d
+
 #include <bits/stdc++.h> // includes all the necessary functions and stuff
 #define ll long long
 
